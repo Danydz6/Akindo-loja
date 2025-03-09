@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="produtos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Loja Virtual</h1>
+        <div class="products">
+            <div class="product" data-name="Produto 1" data-price="10">
+                <h2>Produto 1</h2>
+                <p>Preço: R$ 10,00</p>
+                <button onclick="addToCart('Produto 1', 10)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product" data-name="Produto 2" data-price="20">
+                <h2>Produto 2</h2>
+                <p>Preço: R$ 20,00</p>
+                <button onclick="addToCart('Produto 2', 20)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product" data-name="Produto 3" data-price="30">
+                <h2>Produto 3</h2>
+                <p>Preço: R$ 30,00</p>
+                <button onclick="addToCart('Produto 3', 30)">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </div>
+    <script src="produtos.js"></script>
+</body>
+</html>
+

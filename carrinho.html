@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="produtos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Carrinho de Compras</h1>
+        <div id="cart"></div>
+        <p id="total">Total: R$ 0,00</p>
+        <button onclick="goBack()">Voltar aos Produtos</button>
+        <button id="cmp"> Comprar</button>
+    </div>
+    <script src="produtos.js"></script>
+    <script>
+        var cmp = document.getElementById("cmp")
+        cmp.onclick = function () {
+        alert ("OPS! Parece que não podemos realizar essa função ainda :( Por favor, volte á olhar nossos produtos. ")
+        }
+        </script>
+</body>
+</html>
